@@ -56,10 +56,10 @@ In project root directory :
 	if(${GPHOTO2_VERSION_STRING} VERSION_LESS "2.5")
 		add_definitions("-DGPHOTO_LESS_25")
 	endif()
-```
+  ```
 
 - Gphoto2pp does not correctly move its headers to /usr/local/include while installing. Do : 
  
- `sudo mv <gphoto2pp directory>/include/gphoto2pp/ /usr/local/include/`
+  `sudo mv <gphoto2pp directory>/include/gphoto2pp/ /usr/local/include/`
  
- after `make install`
+   after `make install`
