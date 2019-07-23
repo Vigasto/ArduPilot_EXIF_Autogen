@@ -1,0 +1,9 @@
+[submodule "lib/gphoto2pp"]
+	path = lib/gphoto2pp
+	url = https://github.com/maldworth/gphoto2pp
+[submodule "lib/mavlink"]
+	path = lib/mavlink
+	url = https://github.com/mavlink/c_library_v2
+[submodule "lib/serial"]
+	path = lib/serial
+	url = https://github.com/wjwwood/serial
