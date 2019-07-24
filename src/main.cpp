@@ -138,7 +138,7 @@ int main()
 
 	      // Add zero padding until 7 digits
  	      std::stringstream fileName;
-              fileName << std::setfill('0') << std::setw(7) << ++count;
+              fileName << std::setfill('0') << std::setw(7) << ++count << ".jpg" ;
               std::string paddedName = fileName.str();
 
               cameraFile.save(paddedName);
